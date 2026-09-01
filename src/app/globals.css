@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#001D39] text-[#BDD8E9] antialiased selection:bg-[#7BBDE8]/30 selection:text-[#7BBDE8];
+  }
+}
+
+/* Custom palette scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #001328;
+}
+::-webkit-scrollbar-thumb {
+  background: #0A4174;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7BBDE8;
+}
