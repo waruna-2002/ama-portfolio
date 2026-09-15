@@ -100,8 +100,6 @@ export const personalInfo = {
     "/ama2.jpg",
     "/ama3.jpg",
     "/ama4.jpg",
-    "/ama5.jpg",
-    "/ama6.jpg",
   ],
   languages: ["Sinhala (Fluent)", "English (Fluent)"],
 };
